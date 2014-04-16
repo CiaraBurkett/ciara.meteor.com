@@ -3,4 +3,6 @@ Router.map ->
         path: "/"
 
     @route "dashboard"
+    @route "about"
+    @route "projects"
     return
