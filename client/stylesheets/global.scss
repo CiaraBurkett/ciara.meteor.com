@@ -3,3 +3,23 @@
 @import "bitters/bitters";
 @import "variables";
 @import "mixins";
+
+// Font Variables
+$signika: 'Signika', sans-serif;
+
+// Color Variables
+$blue: #80CCC6;
+$pink: #FF6850;
+
+// Global
+body {
+    color: $pink;
+    font-family: $signika;
+    font-size: 150%;
+    h1, h2, h3, h4, h5, h6 {
+        font-family: $signika;
+    }
+    a {
+        color: $blue;
+    }
+}
