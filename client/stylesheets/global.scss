@@ -9,7 +9,11 @@ $signika: 'Signika', sans-serif;
 
 // Color Variables
 $blue: #80CCC6;
+$green: #2F845A;
+$greenblack: #353D34;
+$greengray: #3B483E;
 $pink: #FF6850;
+$darkpink: #F3443B;
 
 // Global
 ::selection {
@@ -23,6 +27,9 @@ body {
     font-size: 150%;
     h1, h2, h3, h4, h5, h6 {
         font-family: $signika;
+    }
+    p, ul {
+        color: $greengray;
     }
     a {
         color: $blue;
@@ -39,13 +46,30 @@ body {
     }
 }
 
+// Header
+header {
+    h1 {
+        text-align: center;
+    }
+    ul {
+        text-align: center;
+    }
+}
+
 // Navigation
 nav {
     margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
     ul {
         li {
             display: inline-block;
-            margin-right: 30px;
+            margin-right: 50px;
         }
     }
 }
+
+// Main
+// #tools ul {
+//     color: $greengray;
+// }
