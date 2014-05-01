@@ -27,6 +27,7 @@ body {
     font-size: 150%;
     h1, h2, h3, h4, h5, h6 {
         font-family: $signika;
+        margin-bottom: 25px;
     }
     p, ul {
         color: $greengray;
@@ -48,6 +49,9 @@ body {
 
 // Header
 header {
+    #logo img {
+        border-radius: 25px;
+    }
     h1 {
         text-align: center;
     }
