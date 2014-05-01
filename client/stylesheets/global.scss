@@ -12,6 +12,11 @@ $blue: #80CCC6;
 $pink: #FF6850;
 
 // Global
+::selection {
+    background: $pink;
+    color: white;
+}
+
 body {
     color: $pink;
     font-family: $signika;
@@ -21,5 +26,26 @@ body {
     }
     a {
         color: $blue;
+    }
+}
+
+.container {
+    @include outer-container;
+    header {
+        @include span-columns(3);
+    }
+    .main {
+        @include span-columns(9);
+    }
+}
+
+// Navigation
+nav {
+    margin-bottom: 50px;
+    ul {
+        li {
+            display: inline-block;
+            margin-right: 30px;
+        }
     }
 }
