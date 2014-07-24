@@ -1,5 +1,7 @@
 {
   "packages": {
-    "zf5": {}
+    "zf5": {},
+    "font-awesome": {},
+    "iron-router": {}
   }
 }
