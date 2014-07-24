@@ -1,8 +1,65 @@
 @import "../packages/zf5/scss/normalize";
 @import "../packages/zf5/scss/foundation";
 
-// Variables
+// Color Variables
+$black: #382529;
+$lightblack: #463337;
+$brown: #866269;
+$white: #F1DFD5;
+$red: #C7143A;
+
+// Font Variables
+$hind: 'Hind', sans-serif;
+$karma: 'Karma', serif;
+
 // Global
+body {
+   background-color: $lightblack;
+   color: $white;
+   font-family: $hind;
+   h1, h2, h3, h4, h5, h6 {
+      color: $brown;
+      font-family: $hind;
+      font-weight: 500;
+   }
+   p {
+      font-size: 150%;
+      font-weight: 300;
+   }
+   ul {
+      font-size: 150%;
+   }
+   a {
+      color: $red;
+   }
+}
+
 // Header
+header {
+   h1 {
+      font-weight: 700;
+      font-size: 96px;
+   }
+}
 // Main
+section {
+   h2 {
+      text-transform: uppercase;
+   }
+}
+
+//Projects
+.projects
+   .panel {
+      background-color: $black;
+      border: none;
+      h4 {
+         color: $white;
+      }
+      p {
+         color: $white;
+         font-size: 18px;
+      }
+}
+
 // Footer
