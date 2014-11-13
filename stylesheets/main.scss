@@ -54,8 +54,13 @@ section {
    .panel {
       background-color: $black;
       border: none;
-      h3 {
-         color: $white;
+      h3, h4 {
+         font-family: $source;
+      }
+      h4 {
+        color: $white;
+        font-style: italic;
+        font-weight: 300;
       }
       p {
          color: $white;
